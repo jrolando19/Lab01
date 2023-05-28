@@ -1,11 +1,10 @@
 public class MethodParameter {
     public static void main(String[] args) {
-        myMethod("Liam");
-        myMethod("Jenny");
-        myMethod("Anja");
+        System.out.println(myMethod(3)); // Se ingresa el valor de 3 al método
+        ;
     }
 
-    public static void myMethod(String fname) {
-        System.out.println(fname + " Refsnes");
+    public static int myMethod(int x) {
+        return 5 + x; // Retorna el valor ingresado al método sumado a 5
     }
 }
