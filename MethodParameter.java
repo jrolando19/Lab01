@@ -1,10 +1,10 @@
 public class MethodParameter {
     public static void main(String[] args) {
-        System.out.println(myMethod(3)); // Se ingresa el valor de 3 al método
+        System.out.println(myMethod(5, 3)); // Se ingresan 2 parámetros al llamado del método
         ;
     }
 
-    public static int myMethod(int x) {
-        return 5 + x; // Retorna el valor ingresado al método sumado a 5
+    public static int myMethod(int x, int y) {
+        return x + y; // Retorna el valor de haber ingreso 2 parámetros
     }
 }
