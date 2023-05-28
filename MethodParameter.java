@@ -1,10 +1,14 @@
 public class MethodParameter {
     public static void main(String[] args) {
-        System.out.println(myMethod(5, 3)); // Se ingresan 2 parámetros al llamado del método
-        ;
+        checkAge(20); // Hace el llamado al método checkAge con una edad de 20
     }
 
-    public static int myMethod(int x, int y) {
-        return x + y; // Retorna el valor de haber ingreso 2 parámetros
+    private static void checkAge(int age) {
+        if (age < 18) {
+            System.out.println("Access denied - You are not old enough!"); // Si es menor a 18 se le deniega el acceso
+        } else {
+            System.out.println("Access granted - You are old enough!"); // Si es mayor a 18 se le otorga el acceso
+        }
     }
+
 }
