@@ -1,6 +1,8 @@
 public class Methods {
     public static void main(String[] args) {
         myMethod(); // Se llama al método creado para que realice su función determinada
+        myMethod();
+        myMethod();
     }
 
     public static void myMethod() {
