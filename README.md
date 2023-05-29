@@ -65,7 +65,7 @@
   - LINK DE REPOSITORIOS INDIVIDUALES:
 
     - Jordy Rolando Tejada Lazo: https://github.com/jrolando19/Lab01-Individual1.git
-    - Gustavo Alonso Yunque Quispe: https://github.com/
+    - Gustavo Alonso Yunque Quispe: https://github.com/gustavoyunque/Lab01-individual.git
 
   #
 
@@ -88,6 +88,8 @@
     <img src = "Img/CommitsJordy.png">
 
 #
+
+- TODO SE ENCUENTRA BREVEMENTE DETALLADO EN EL PDF QUE SE ENVIÓ A LA PROFRESORA ENCARGADA
 
 ## CUESTIONARIO
 
